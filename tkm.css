@@ -124,6 +124,16 @@ button{
 
 @keyframes slideInRight {
     to { transform: translateX(0) rotate(90deg) scaleY(-1); }
+@media (max-width: 600px) {
+    .hand {
+        width: 100px; 
+    }
+    #skor {
+        font-size: 18px;
+    }
 }
+    
+}
+
 
 
