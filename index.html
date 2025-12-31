@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun</title>
+    <link rel="stylesheet" href="tkm.css">
+</head>
+<body>
+
+    <div class="skor" id="skor">
+        Oyuncu: 0 | Bilgisayar: 0
+    </div>
+    <!----------------------------------------->
+    <div class="oyun">
+
+    <div class="oyuncu">
+        <img id="user-hand" src="tas.png" class="sol-el" alt="">
+
+    </div>
+
+    <div class="rakip">
+        <img id="pc-hand" src="tas.png" class="sag-el" alt="">
+
+    </div>
+    </div>
+    <!----------------------------------------->
+    <div class="secim">
+        <button onclick="oyna('tas')">Taş</button>
+        <button onclick="oyna('kagit')">Kağıt</button>
+        <button onclick="oyna('makas')">Makas</button>
+    </div>
+
+
+    <script src="tkm.js"></script>
+</body>
+</html>
