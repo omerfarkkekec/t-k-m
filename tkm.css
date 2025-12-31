@@ -127,8 +127,32 @@ button{
        }
 }
 
+@media (max-width: 600px) {
+   .sag-el{
+        width: 100px; 
+    }
+    .sol-el {
+        width: 100px; 
+    }
+
+    .skor {
+        font-size: 18px; 
+        padding: 10px; 
+        height: 75px;
+    }
+    
+    .oyun {
+        height: 150px; 
+    }
+    .secim {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
 
     
+
 
 
 
