@@ -126,7 +126,7 @@ button{
     to { transform: translateX(0) rotate(90deg) scaleY(-1); 
        }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
    .sag-el{
         width: 100px; 
     }
@@ -150,6 +150,7 @@ button{
 }
 
     
+
 
 
 
